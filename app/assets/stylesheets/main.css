@@ -12,3 +12,12 @@ article {
   border: 1px solid red;
   padding: 1rem; /*rootsize of the body*/
 }
+
+.video-embed {
+  display: block;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+}
