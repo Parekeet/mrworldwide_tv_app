@@ -1,0 +1,42 @@
+<h1>Edit Mr. World Wide's Videos</h1>
+
+<%= form_for @video do |f| %>
+
+    <div>
+        <%= f.label :embed_url %>
+        <%= f.text_field :embed_url %>
+    </div>
+
+    <div>
+        <%= f.label :title %>
+        <%= f.text_field :title %>
+    </div>
+
+    <div>
+        <%= f.label :album %>
+        <%= f.text_field :album %>
+    </div>
+
+    <div>
+        <%= f.label :featured_artists %>
+        <%= f.text_field :featured_artists %>
+    </div>
+
+    <div>
+        <%= f.label :released_on %>
+        <%= f.text_field :released_on %>
+    </div>
+
+    <div>
+        <%= f.label :tags %>
+        <%= f.text_field :tags %>
+    </div>
+
+    <%= f.submit "Submit your changes" %>
+
+<% end %>
+
+<%= link_to "Back to the list!", videos_path %>
+
+
+
